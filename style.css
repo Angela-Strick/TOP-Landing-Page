@@ -5,6 +5,9 @@ html, body {
 .header-container{
   display: flex;
   align-items: center;
+  background-color:rgb(255,229,180);
+  background-size: 100%;
+
 }
 
 .right-links{
@@ -23,10 +26,11 @@ width: 100%;
   display:flex;
   align-items: center;
   justify-content: center;
+  background-color:rgb(255,229,180)
 }
 
 .content{
-  display: block;
+  display: flexbox;
   text-align: left;
   word-wrap: wrap;
   width: 350px;
@@ -36,7 +40,7 @@ width: 100%;
 .RHOA-logo{
   display: flex;
   justify-content: flex-end;
-  height: 10%;
-  width: 15%;
+  height: auto;
+  width: auto;
   margin: 50px;
 }
