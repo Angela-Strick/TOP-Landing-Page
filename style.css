@@ -1,0 +1,36 @@
+html, body {
+  height: 100vh;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+.right-links{
+  display: flex;
+  justify-content: flex-end;
+  gap:20px;
+}
+
+.logo{
+display: block;
+  }
+
+.content-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  display: block;
+}
+
+.RHOA-logo{
+  display: flex;
+  justify-content: flex-end;
+  height: 10%;
+  width: 15%;
+  margin: 20px;
+}
