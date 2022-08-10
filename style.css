@@ -11,10 +11,12 @@ html, body {
   display: flex;
   justify-content: flex-end;
   gap:20px;
+  width: 100%;
 }
 
 .logo{
-display: block;
+display: flex;
+width: 100%;
   }
 
 .content-container{
