@@ -1,5 +1,6 @@
 html, body {
   height: 100vh;
+  margin: 0;
 }
 
 .header-container{
@@ -7,7 +8,7 @@ html, body {
   align-items: center;
   background-color:rgb(255,229,180);
   background-size: 100%;
-
+  margin: 0px;
 }
 
 .right-links{
@@ -26,7 +27,8 @@ width: 100%;
   display:flex;
   align-items: center;
   justify-content: center;
-  background-color:rgb(255,229,180)
+  background-color:rgb(255,229,180);
+  gap: 200px;
 }
 
 .content{
@@ -43,4 +45,35 @@ width: 100%;
   height: auto;
   width: auto;
   margin: 50px;
+}
+
+.header-2{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  position: fixed;
+  height: 50px;
+  padding-top: 32px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(255,229,180);
+  color: black;
+  text-align: center;
+}
+
+button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
 }
