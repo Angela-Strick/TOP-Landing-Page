@@ -77,3 +77,46 @@ button{
   cursor: pointer;
   border-radius: 15px;
 }
+
+.NN {
+  display: flex;
+  height: 20%;
+  width: 10%;
+  border: 5px solid green;
+  border-radius: 25px;
+}
+.KB {
+display: flex;
+height: 20%;
+width: 10%;
+border: 5px solid green;
+border-radius: 25px;
+}
+
+.SW{
+display: flex;
+height: 20%;
+width: 10%; 
+border: 5px solid green;
+border-radius: 25px;
+}
+
+.PP{
+  display: flex;
+  height: 20%;
+  width: 10%; 
+  border: 5px solid green;
+  border-radius: 25px;
+}
+
+.content-container2{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.text{
+  text-align: center;
+}
