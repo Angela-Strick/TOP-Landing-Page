@@ -51,19 +51,6 @@ width: 100%;
   display: flex;
   justify-content: center;
 }
-
-.footer{
-  position: fixed;
-  height: 50px;
-  padding-top: 32px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:rgb(249, 139, 120);
-  color: black;
-  text-align: center;
-}
-
 button{
   background-color: #4CAF50;
   border: none;
@@ -133,7 +120,7 @@ border-radius: 25px;
   justify-content: center;
   align-items: center;
   background-color:rgb(255,228,181);
-  height: 50%;
+  height: 20%;
 }
 .quote {
   padding-top: 30px;
