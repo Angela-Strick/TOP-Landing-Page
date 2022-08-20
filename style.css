@@ -16,6 +16,10 @@ html, body {
   justify-content: flex-end;
   gap:20px;
   width: 100%;
+  list-style: none;
+  padding-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .logo {
@@ -123,7 +127,7 @@ border-radius: 25px;
   height: 20%;
 }
 .quote {
-  padding-top: 30px;
+  padding: 30px;
   font-size: 36px;
   font-style: italic;
 }
@@ -133,4 +137,30 @@ border-radius: 25px;
   align-self: flex-end;
   font-size: 20px;
   font-weight: bold;
+}
+
+.item-bubble{
+  display:flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.item2{
+  display: block;
+  font-size: 20px;
+  font-style: light-italic;
+}
+
+.item-container{
+  display: flex;
+  background-color:rgb(255,228,181);
+  border-radius: 15px;
+  width: 800px;
+  padding:20px;
+}
+
+.button2{
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 25px;
 }
