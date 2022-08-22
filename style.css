@@ -42,7 +42,8 @@ padding-left: 15px;
   display: flexbox;
   text-align: left;
   word-wrap: wrap;
-  width: 350px;
+  width: 50%;
+  height: 50%;
   margin: 50px;
 }
 
@@ -52,7 +53,8 @@ padding-left: 15px;
   height: 50%;
   width: 50%;
   margin-bottom: 55px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-right: 50px;
   border-radius: 15px;
   flex-shrink: 2;
 }
